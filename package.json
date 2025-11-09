@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./dist/server.js",
+    "start": "node /dist/server.js",
+    
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "pm": "npx prisma migrate dev ",
     "pg": "npx prisma generate",
