@@ -24,6 +24,7 @@ const app: Application = express();
 app.use(
   cors({
     origin: [
+      "*",
       'http://localhost:3001',
       'http://localhost:3000',
       'http://204.197.173.249:3888',
